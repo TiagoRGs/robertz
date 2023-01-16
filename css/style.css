@@ -67,13 +67,20 @@ body{
     padding-top: 100px;
 }
 
+.headline-pai{
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 1px solid yellow; */
+}
+
 .headline{
     /* border: 1px solid red; */
     color: white;
-    flex: 22%;
+    flex: 27%;
     margin-right: 3%;
     text-align: center;
-    padding-top: 25%;
+    padding-top: 23%;
+    padding-bottom: 5%;
 }
 
 .headline p{
@@ -84,8 +91,8 @@ body{
 
 .headline h2{
     font-family: 'Gudea', sans-serif;
-    font-size: 30px;
-    letter-spacing: 3px;
+    font-size: 50px;
+    letter-spacing: 5px;
 }
 
 .headline a{
@@ -110,46 +117,68 @@ body{
 
 .img-headline{
     /* border: 1px solid blue; */
-    flex: 50%;
+    flex: 40%;
     text-align: center;
+    padding-top: 5%;
 }
 
 .divvazio{
     /* border: 1px solid green; */
-    flex: 22%;
+    flex: 27%;
     margin-left: 3%;
 }
 
 /* Separar */
 
 .section{
+    background: black;
     display: flex;
     flex-flow: row wrap;
-    background: black;
 }
 
-.sectionline{
+.section-pai{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 1px solid yellow; */
+}
+
+.divvazio-section{
+    /* border: 1px solid green; */
+    flex: 27%;
+    margin-left: 3%;
+}
+
+.img-section{
+    /* border: 1px solid blue; */
+    flex: 40%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.section-text{
     /* border: 1px solid red; */
     color: white;
-    flex: 22%;
+    flex: 27%;
     margin-right: 3%;
     text-align: center;
-    padding-top: 15%;
+    padding-top: 23%;
+    padding-bottom: 5%;
 }
 
-.sectionline p{
+.section-text p{
     font-family: 'Gudea', sans-serif;
     font-size: 20px;
     letter-spacing: 10px;
 }
 
-.sectionline h2{
+.section-text h2{
     font-family: 'Gudea', sans-serif;
-    font-size: 30px;
-    letter-spacing: 3px;
+    font-size: 50px;
+    letter-spacing: 5px;
 }
 
-.sectionline a{
+.section-text a{
     text-decoration: none;
     background: black;
     border: 1px solid white;
@@ -159,14 +188,63 @@ body{
     letter-spacing: 3px;
 }
 
-.img-sectionline{
-    /* border: 1px solid blue; */
+.section-text a:hover{
+    text-decoration: none;
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Gudea', sans-serif;
+    color: gray;
+    letter-spacing: 3px;
+}
+
+/* Separar */
+
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 1px solid yellow; */
+    height: 749px;
+    background: #dee2e6;
+}
+
+.footer-left{
     flex: 50%;
+    /* border: 1px solid red; */
+    font-family: 'Gudea', sans-serif;
+    text-align: left;
+    color: gray;
+    padding-left: 210px;
+    padding-right: 10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.footer-left h2{
+    color: #33393f;
+}
+
+.footer-right{
+    flex: 50%;
+    /* border: 1px solid blue; */
+    font-family: 'Gudea', sans-serif;
+    text-align: left;
+    color: gray;
+    padding-left: 60px;
+    padding-right: 210px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.footer-pc{
+    flex: 27%;
+    /* border: 1px solid red; */
+    margin-right: 5%;
     text-align: center;
 }
 
-.divvazio2{
-    /* border: 1px solid green; */
-    flex: 22%;
-    margin-left: 3%;
+.footer-pc h3{
+    color: #33393f;
 }
