@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background: black;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    background: transparent;
+    height: 70px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    padding-top: 6px;
+}
+
+.logo{
+    /* border: 1px solid red; */
+    flex: 22%;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.logo img{
+    max-width: 30%;
+}
+
+.menu{
+    /* border: 1px solid blue; */
+    flex: 40%;
+    text-align: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-family: 'Rowdies', cursive;
+    font-size: 18px;
+}
+
+.acoes{
+    flex: 22%;
+    margin-right: 3%;
+    /* border: 1px solid yellow; */
+    text-align: right;
+}
+
+.acoes img{
+    max-width: 8%;
+    margin: 8px;
+}
+
+
+.header{
+    background: black;
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 100px;
+}
+
+.headline{
+    /* border: 1px solid red; */
+    color: white;
+    flex: 22%;
+    margin-right: 3%;
+    text-align: center;
+    padding-top: 25%;
+}
+
+.headline p{
+    font-family: 'Gudea', sans-serif;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.headline h2{
+    font-family: 'Gudea', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.headline a{
+    text-decoration: none;
+    background: black;
+    border: 1px solid white;
+    padding: 10px;
+    font-family: 'Gudea', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.headline a:hover{
+    text-decoration: none;
+    background: white;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Gudea', sans-serif;
+    color: gray;
+    letter-spacing: 3px;
+}
+
+.img-headline{
+    /* border: 1px solid blue; */
+    flex: 50%;
+    text-align: center;
+}
+
+.divvazio{
+    /* border: 1px solid green; */
+    flex: 22%;
+    margin-left: 3%;
+}
+
+/* Separar */
+
+.section{
+    display: flex;
+    flex-flow: row wrap;
+    background: black;
+}
+
+.sectionline{
+    /* border: 1px solid red; */
+    color: white;
+    flex: 22%;
+    margin-right: 3%;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.sectionline p{
+    font-family: 'Gudea', sans-serif;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.sectionline h2{
+    font-family: 'Gudea', sans-serif;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.sectionline a{
+    text-decoration: none;
+    background: black;
+    border: 1px solid white;
+    padding: 10px;
+    font-family: 'Gudea', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.img-sectionline{
+    /* border: 1px solid blue; */
+    flex: 50%;
+    text-align: center;
+}
+
+.divvazio2{
+    /* border: 1px solid green; */
+    flex: 22%;
+    margin-left: 3%;
+}
